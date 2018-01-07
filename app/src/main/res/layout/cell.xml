@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/cell_background">
+
+    <ImageView
+        android:id="@+id/numberIV"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="fitXY"
+        android:padding="5dp"/>
+
+
+    <TextView
+        android:id="@+id/numberTV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:text="fsdafdasfasdfas"
+        android:gravity="center_vertical"
+        android:textColor="@color/cell_text_color"/>
+
+</LinearLayout>
